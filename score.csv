@@ -1,0 +1,7 @@
+Score,Valeur,Formatted_Value
+Score train RL,0.8780919260630695,"87,81%"
+Score test RL,0.8751550186371845,"87,52%"
+Score train DC,0.9927788790453979,"99,28%"
+Score test DC,0.9609802083044159,"96,10%"
+Score train RF,0.99049874038114,"99,05%"
+Score test RF,0.9702442372737627,"97,02%"
