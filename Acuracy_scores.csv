@@ -1,0 +1,21 @@
+Modele,Score_train,Score_test,Details
+reglog1,0.6960314076600582,0.696603666335086,Modèle regression logistique avec toutes Variables
+reglog2,0.6366268741561856,0.6372033537018615,Modèle regression logistique avec les 5 premières Variables importantes
+reglog3,0.6760818588787039,0.6752877646724457,Modèle regression logistique avec les 6 premières Variables importantes
+reglog4,0.6907731116322036,0.6911325849083416,Modèle regression logistique avec les 7 premières Variables importantes
+dectree1,0.9175193633198323,0.8534887025721188,Modèle arbre de décision avec toutes Variables
+dectree2,0.9167732537483124,0.8522097484723604,Modèle regression logistique avec les 5 premières Variables importantes
+dectree3,0.9173239536701485,0.8532755435554924,Modèle regression logistique avec les 6 premières Variables importantes
+dectree4,0.9173239536701485,0.8536308085832031,Modèle regression logistique avec les 7 premières Variables importantes
+rfcl1,0.917483834292617,0.8573255648713941,Modèle random forest avec toutes Variables
+rfcl2,0.9167554892347047,0.8583913599545261,Modèle random forest avec les 5 premières Variables importantes
+rfcl3,0.9173239536701485,0.8584624129600682,Modèle random forest avec les 6 premières Variables importantes
+rfcl4,0.9173061891565409,0.8572545118658519,Modèle random forest avec les 7 premières Variables importantes
+rfcl5,0.9330871218311163,0.850930794372602,Modèle random forest avec Normalized Oversampler
+svm_ro,0.7871468880391324,0.7333380702003695,Modèle SVM Oversampling Randomsampler
+svm_sm,0.7870488392108159,0.7353986073610914,Modèle SVM Oversampling SMOTE
+svm_ru,0.7727494465083118,0.7228932783856757,Modèle SVM Uversampling Randomsampler
+svm_cc,0.7483582873653796,0.708753730282791,Modèle SVM Uversampling ClusterCentroids
+svm_proba,0.7727494465083118,0.7228932783856757,Modèle SVM Uversampling Probabilités appartenance classes
+svm_poids,0.7383997726142258,0.7356117663777177,Modèle SVM Poids classe
+bclf,0.8908725929084061,0.8487992042063379,Modèle BalancedRandomForest
